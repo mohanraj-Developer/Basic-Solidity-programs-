@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Deposit",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"BasicProgram/SimpleEventAndOwnerRest.sol": "Event"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"BasicProgram/SimpleEventAndOwnerRest.sol": {
+			"keccak256": "0x02e9a686a8e103f8c3c48db27bf8f368edfa99f3eff1518dfc2ba3b18bdd4f29",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3f97fe4a021d30536d111aab782c7f984dab777f13dfd901d53255ecd1aa0ad4",
+				"dweb:/ipfs/QmZAakJAp2toArGALGtHxjktppVpxHYWgfpWQ5TmFFkWWq"
+			]
+		}
+	},
+	"version": 1
+}

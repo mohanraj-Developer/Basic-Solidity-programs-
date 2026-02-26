@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"BasicProgram/OddEven.sol": "OddEvenIfCondition"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"BasicProgram/OddEven.sol": {
+			"keccak256": "0x5ad2f6a6244b04ab871230c85b3d6bdbb1ee66a455ac84eeefc417e3013f2857",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0b6a8c3711fdb275cadf9a0c53ba2031e7aaf00c796c5d9d79bc7f8b9bb36252",
+				"dweb:/ipfs/QmWnpLgRRPKGNaX6vhikf4k2ozQr5maQ8ehhzKuzMzNEJr"
+			]
+		}
+	},
+	"version": 1
+}
