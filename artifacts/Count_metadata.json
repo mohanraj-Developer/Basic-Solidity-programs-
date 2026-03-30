@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
+					}
+				],
+				"name": "decWhile",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCount",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "time",
+						"type": "uint256"
+					}
+				],
+				"name": "incWhile",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"incWhile(uint256)": {
+					"notice": "// inc and dec using loop function: function incLoop(uint times) public{ for (uint i = 0; i < times; i++){ count += 1; } } function decLoop(uint times) public { for (uint i = 0; i < times; i++){ count -= 1; } }*"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ethTutorials/IncDecCount.sol": "Count"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ethTutorials/IncDecCount.sol": {
+			"keccak256": "0xd4a9f8b238fe85ab49d6479507b1d623356374a903c29029d56f6a2ce62f68d1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9931c814cc56272fb205d66c29a2ea51b66aa017d2cefb9455283679717d6bf4",
+				"dweb:/ipfs/QmYsFx9tkHtzLBMcEMgDh3mkzxassSYmbwDwnqrSQ2bgvt"
+			]
+		}
+	},
+	"version": 1
+}
